@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            color: white;
+            margin: 0%;
+            padding: 0%;
+            background: url('https://www.trimmedandtoned.com/wp-content/uploads/2014/05/JamesEllisFit-Workout-Routine.jpg');
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            left: 60px;
+            top: 20px;
+           
+        }
+
+        .left img {
+
+            width: 103px;
+
+        }
+
+        .left div {
+            font-size: 19px;
+            line-height: 50px;
+            text-align: center;
+        }
+
+        .mid {
+            display: block;
+            width: 50%;
+            margin: 20px auto;
+           
+        }
+
+
+        .right {
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            right: 34px;
+            
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            font-size: 25px;
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: rgb(221, 214, 214);
+            text-decoration: none;
+            padding: 25px 15px;
+        }
+
+        .navbar li a:hover {
+            color: grey;
+        }
+
+        .btn {
+            background-color: black;
+            color: white;
+            margin: 0px 9px;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+        .btn:hover {
+            background-color: rgb(80, 70, 70);
+        }
+
+        .container {
+
+            color: white;
+            border: 2px solid rgb(238, 247, 238);
+            margin: 100px 450px;
+            padding: 60px;
+            width: 33%;
+            border-radius: 30px;
+        }
+
+        h1 {
+            color: rgb(247, 243, 243);
+
+        }
+
+        .formgrp input {
+            text-align: center;
+            display: block;
+            padding: 6px;
+            width: 254px;
+            border: 2px solid black;
+            margin: 4px;
+            font-size: 22px;
+            border-radius: 13px;
+
+        }
+
+        .container button {
+            display: block;
+            width: 270px;
+            border-radius: 13px;
+            background-color: black;
+        }
+    </style>
+    <title>project 1</title>
+</head>
+
+<body>
+    <header class="header">
+
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/000/595/164/small/04012019-28.jpg" alt="">
+            <div>ARCHIT FITNESS</div>
+        </div>
+
+        <!-- mid for navibar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#"> HOME</a></li>
+                <li><a href="#">ABOUT US</a> </li>
+                <li><a href="#">FITNESS CENTER</a> </li>
+                <li><a href="#">CONTACT NO.</a> </li>
+            </ul>
+        </div>
+
+        <!-- right for buttons -->
+        <div class="right">
+            <button class="btn">CALL US</button>
+            <button class="btn">EMAIL US</button>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <h1>JOIN THE BEST GYM OF DELHI NOW</h1>
+        <form action="noaction.php">
+            <div class="formgrp">
+                <input type="text" name="" placeholder="enter your name">
+            </div>
+            <div class="formgrp">
+                <input type="text" name="" placeholder="enter your age">
+            </div>
+            <div class="formgrp">
+                <input type="text" name="" placeholder="enter your gender">
+            </div>
+            <div class="formgrp">
+                <input type="text" name="" placeholder="enter your locality">
+            </div>
+            <button class="btn">SUBMIT</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
